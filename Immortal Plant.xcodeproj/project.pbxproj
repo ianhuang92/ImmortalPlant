@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C51BF77A1F8748450015DA73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BF7791F8748450015DA73 /* AppDelegate.swift */; };
+		C51BF77C1F8748450015DA73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BF77B1F8748450015DA73 /* ViewController.swift */; };
+		C51BF77F1F8748450015DA73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51BF77D1F8748450015DA73 /* Main.storyboard */; };
+		C51BF7821F8748450015DA73 /* Immortal_Plant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C51BF7801F8748450015DA73 /* Immortal_Plant.xcdatamodeld */; };
+		C51BF7841F8748450015DA73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51BF7831F8748450015DA73 /* Assets.xcassets */; };
+		C51BF7871F8748450015DA73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51BF7851F8748450015DA73 /* LaunchScreen.storyboard */; };
+		C51BF7921F8748450015DA73 /* Immortal_PlantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BF7911F8748450015DA73 /* Immortal_PlantTests.swift */; };
+		C51BF79D1F8748450015DA73 /* Immortal_PlantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BF79C1F8748450015DA73 /* Immortal_PlantUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C51BF78E1F8748450015DA73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C51BF76E1F8748440015DA73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C51BF7751F8748440015DA73;
+			remoteInfo = "Immortal Plant";
+		};
+		C51BF7991F8748450015DA73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C51BF76E1F8748440015DA73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C51BF7751F8748440015DA73;
+			remoteInfo = "Immortal Plant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C51BF7761F8748440015DA73 /* Immortal Plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Immortal Plant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51BF7791F8748450015DA73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C51BF77B1F8748450015DA73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C51BF77E1F8748450015DA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C51BF7811F8748450015DA73 /* Immortal_Plant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Immortal_Plant.xcdatamodel; sourceTree = "<group>"; };
+		C51BF7831F8748450015DA73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C51BF7861F8748450015DA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C51BF7881F8748450015DA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51BF78D1F8748450015DA73 /* Immortal PlantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Immortal PlantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51BF7911F8748450015DA73 /* Immortal_PlantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Immortal_PlantTests.swift; sourceTree = "<group>"; };
+		C51BF7931F8748450015DA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51BF7981F8748450015DA73 /* Immortal PlantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Immortal PlantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51BF79C1F8748450015DA73 /* Immortal_PlantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Immortal_PlantUITests.swift; sourceTree = "<group>"; };
+		C51BF79E1F8748450015DA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C51BF7731F8748440015DA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51BF78A1F8748450015DA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51BF7951F8748450015DA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C51BF76D1F8748440015DA73 = {
+			isa = PBXGroup;
+			children = (
+				C51BF7781F8748440015DA73 /* Immortal Plant */,
+				C51BF7901F8748450015DA73 /* Immortal PlantTests */,
+				C51BF79B1F8748450015DA73 /* Immortal PlantUITests */,
+				C51BF7771F8748440015DA73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C51BF7771F8748440015DA73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C51BF7761F8748440015DA73 /* Immortal Plant.app */,
+				C51BF78D1F8748450015DA73 /* Immortal PlantTests.xctest */,
+				C51BF7981F8748450015DA73 /* Immortal PlantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C51BF7781F8748440015DA73 /* Immortal Plant */ = {
+			isa = PBXGroup;
+			children = (
+				C51BF7791F8748450015DA73 /* AppDelegate.swift */,
+				C51BF77B1F8748450015DA73 /* ViewController.swift */,
+				C51BF77D1F8748450015DA73 /* Main.storyboard */,
+				C51BF7831F8748450015DA73 /* Assets.xcassets */,
+				C51BF7851F8748450015DA73 /* LaunchScreen.storyboard */,
+				C51BF7881F8748450015DA73 /* Info.plist */,
+				C51BF7801F8748450015DA73 /* Immortal_Plant.xcdatamodeld */,
+			);
+			path = "Immortal Plant";
+			sourceTree = "<group>";
+		};
+		C51BF7901F8748450015DA73 /* Immortal PlantTests */ = {
+			isa = PBXGroup;
+			children = (
+				C51BF7911F8748450015DA73 /* Immortal_PlantTests.swift */,
+				C51BF7931F8748450015DA73 /* Info.plist */,
+			);
+			path = "Immortal PlantTests";
+			sourceTree = "<group>";
+		};
+		C51BF79B1F8748450015DA73 /* Immortal PlantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C51BF79C1F8748450015DA73 /* Immortal_PlantUITests.swift */,
+				C51BF79E1F8748450015DA73 /* Info.plist */,
+			);
+			path = "Immortal PlantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C51BF7751F8748440015DA73 /* Immortal Plant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51BF7A11F8748450015DA73 /* Build configuration list for PBXNativeTarget "Immortal Plant" */;
+			buildPhases = (
+				C51BF7721F8748440015DA73 /* Sources */,
+				C51BF7731F8748440015DA73 /* Frameworks */,
+				C51BF7741F8748440015DA73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Immortal Plant";
+			productName = "Immortal Plant";
+			productReference = C51BF7761F8748440015DA73 /* Immortal Plant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C51BF78C1F8748450015DA73 /* Immortal PlantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51BF7A41F8748450015DA73 /* Build configuration list for PBXNativeTarget "Immortal PlantTests" */;
+			buildPhases = (
+				C51BF7891F8748450015DA73 /* Sources */,
+				C51BF78A1F8748450015DA73 /* Frameworks */,
+				C51BF78B1F8748450015DA73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C51BF78F1F8748450015DA73 /* PBXTargetDependency */,
+			);
+			name = "Immortal PlantTests";
+			productName = "Immortal PlantTests";
+			productReference = C51BF78D1F8748450015DA73 /* Immortal PlantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C51BF7971F8748450015DA73 /* Immortal PlantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51BF7A71F8748450015DA73 /* Build configuration list for PBXNativeTarget "Immortal PlantUITests" */;
+			buildPhases = (
+				C51BF7941F8748450015DA73 /* Sources */,
+				C51BF7951F8748450015DA73 /* Frameworks */,
+				C51BF7961F8748450015DA73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C51BF79A1F8748450015DA73 /* PBXTargetDependency */,
+			);
+			name = "Immortal PlantUITests";
+			productName = "Immortal PlantUITests";
+			productReference = C51BF7981F8748450015DA73 /* Immortal PlantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C51BF76E1F8748440015DA73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Zixun Xi";
+				TargetAttributes = {
+					C51BF7751F8748440015DA73 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C51BF78C1F8748450015DA73 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C51BF7751F8748440015DA73;
+					};
+					C51BF7971F8748450015DA73 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C51BF7751F8748440015DA73;
+					};
+				};
+			};
+			buildConfigurationList = C51BF7711F8748440015DA73 /* Build configuration list for PBXProject "Immortal Plant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C51BF76D1F8748440015DA73;
+			productRefGroup = C51BF7771F8748440015DA73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C51BF7751F8748440015DA73 /* Immortal Plant */,
+				C51BF78C1F8748450015DA73 /* Immortal PlantTests */,
+				C51BF7971F8748450015DA73 /* Immortal PlantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C51BF7741F8748440015DA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51BF7871F8748450015DA73 /* LaunchScreen.storyboard in Resources */,
+				C51BF7841F8748450015DA73 /* Assets.xcassets in Resources */,
+				C51BF77F1F8748450015DA73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51BF78B1F8748450015DA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51BF7961F8748450015DA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C51BF7721F8748440015DA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51BF77C1F8748450015DA73 /* ViewController.swift in Sources */,
+				C51BF7821F8748450015DA73 /* Immortal_Plant.xcdatamodeld in Sources */,
+				C51BF77A1F8748450015DA73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51BF7891F8748450015DA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51BF7921F8748450015DA73 /* Immortal_PlantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51BF7941F8748450015DA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51BF79D1F8748450015DA73 /* Immortal_PlantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C51BF78F1F8748450015DA73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C51BF7751F8748440015DA73 /* Immortal Plant */;
+			targetProxy = C51BF78E1F8748450015DA73 /* PBXContainerItemProxy */;
+		};
+		C51BF79A1F8748450015DA73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C51BF7751F8748440015DA73 /* Immortal Plant */;
+			targetProxy = C51BF7991F8748450015DA73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C51BF77D1F8748450015DA73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51BF77E1F8748450015DA73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C51BF7851F8748450015DA73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51BF7861F8748450015DA73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C51BF79F1F8748450015DA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C51BF7A01F8748450015DA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C51BF7A21F8748450015DA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Immortal Plant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Immortal-Plant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C51BF7A31F8748450015DA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Immortal Plant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Immortal-Plant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C51BF7A51F8748450015DA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Immortal PlantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Immortal-PlantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Immortal Plant.app/Immortal Plant";
+			};
+			name = Debug;
+		};
+		C51BF7A61F8748450015DA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Immortal PlantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Immortal-PlantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Immortal Plant.app/Immortal Plant";
+			};
+			name = Release;
+		};
+		C51BF7A81F8748450015DA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Immortal PlantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Immortal-PlantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Immortal Plant";
+			};
+			name = Debug;
+		};
+		C51BF7A91F8748450015DA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Immortal PlantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Immortal-PlantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Immortal Plant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C51BF7711F8748440015DA73 /* Build configuration list for PBXProject "Immortal Plant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51BF79F1F8748450015DA73 /* Debug */,
+				C51BF7A01F8748450015DA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51BF7A11F8748450015DA73 /* Build configuration list for PBXNativeTarget "Immortal Plant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51BF7A21F8748450015DA73 /* Debug */,
+				C51BF7A31F8748450015DA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C51BF7A41F8748450015DA73 /* Build configuration list for PBXNativeTarget "Immortal PlantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51BF7A51F8748450015DA73 /* Debug */,
+				C51BF7A61F8748450015DA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C51BF7A71F8748450015DA73 /* Build configuration list for PBXNativeTarget "Immortal PlantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51BF7A81F8748450015DA73 /* Debug */,
+				C51BF7A91F8748450015DA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C51BF7801F8748450015DA73 /* Immortal_Plant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C51BF7811F8748450015DA73 /* Immortal_Plant.xcdatamodel */,
+			);
+			currentVersion = C51BF7811F8748450015DA73 /* Immortal_Plant.xcdatamodel */;
+			path = Immortal_Plant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C51BF76E1F8748440015DA73 /* Project object */;
+}
